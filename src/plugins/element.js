@@ -27,7 +27,11 @@ import {
   MessageBox,
   Tree,
   Select,
-  Option
+  Option,
+  Alert,
+  Tabs,
+  TabPane,
+  Cascader
 } from 'element-ui'
 
 Vue.use(Button)
@@ -59,3 +63,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Cascader)
